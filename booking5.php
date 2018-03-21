@@ -6,13 +6,11 @@ if(isset($_POST['submit']))
     
 
 {
-	//CHECK VALUE EXIST
+	
 	if(isset($_POST["name"]["s1"]))
 	{
-		//CHECK ARRAY EXIST
 		if(count($_POST["name"]["s1"])>0)
 		{
-			//LOOP
 			foreach($_POST["name"]["s1"] as $key=>$res)
 			{
 				$name=$res;
@@ -28,7 +26,6 @@ if(isset($_POST['submit']))
 	{
 		if(count($_POST["name"]["s2"])>0)
 		{
-			//LOOP
 			foreach($_POST["name"]["s2"] as $key=>$res)
 			{
 				$name=$res;
@@ -44,7 +41,6 @@ if(isset($_POST['submit']))
 	{
 		if(count($_POST["name"]["s3"])>0)
 		{
-			//LOOP
 			foreach($_POST["name"]["s3"] as $key=>$res)
 			{
 				$name=$res;
@@ -60,7 +56,7 @@ if(isset($_POST['submit']))
 	{
 		if(count($_POST["name"]["s4"])>0)
 		{
-			//LOOP
+		
 			foreach($_POST["name"]["s4"] as $key=>$res)
 			{
 				$name=$res;
